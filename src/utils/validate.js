@@ -1,6 +1,5 @@
 export function isvalidUsername(str) {
-  const reg = /^[a-zA-Z0-9.-_]+$/
-  return reg.test(str)
+  return true
 }
 
 export function validateURL(textval) {
