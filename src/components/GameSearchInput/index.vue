@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     gameMedia(relUrl) {
-      return 'https://lutris.net' + relUrl
+      return 'https://winegame.net' + relUrl
     },
     // Return URL for the submission moderation page
     submissionUrl(revisionId) {

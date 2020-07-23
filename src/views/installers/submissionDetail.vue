@@ -2,7 +2,7 @@
   <div>
     <div v-if="submission">
       <h1>
-        <a :href="'https://lutris.net/games/' + submission.game_slug">{{ submission.name }} ({{ submission.year }})</a>
+        <a :href="'https://winegame.net/games/' + submission.game_slug">{{ submission.name }} ({{ submission.year }})</a>
         <span style="float: right;">
           <el-button
             class="el-button--primary el-button--small"
